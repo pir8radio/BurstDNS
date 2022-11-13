@@ -24,6 +24,4 @@ To create your own link, buy an alias. And choose the URI option and enter your 
 
 Anyone may copy the index.html file and use it on your own domain to allow links like `http://ashorturl.com?testing123`
 
-License GPLv3
-
 ----
