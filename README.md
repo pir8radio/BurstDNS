@@ -5,6 +5,7 @@ A webpage that acts as Signum dynamic name server via CORS enabled or local node
 ![](https://raw.githubusercontent.com/Pir8Radio/SignumDNS/master/signumdns-logo.png)
 
 Original repo details here: https://github.com/CurbShifter/BurstDNS
+
 Updated repo details here: https://github.com/Pir8Radio/SignumDNS
 
 Example links
