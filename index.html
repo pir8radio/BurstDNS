@@ -1,5 +1,6 @@
 <!--
 Copyright (C) 2018  CurbShifter
+Updated to Signum 2022 Pir8Radio
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -19,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Burst DNS</title>
+<title>Signum DNS</title>
 <meta charset="utf-8"/>
 </head>
 <style>
@@ -116,21 +117,22 @@ button:hover {
 <body>
 <form id="startform" action="/" style="border:0px solid #ccc" name="startform">
   <div class="container" style="text-align:center">
-  <img src="https://raw.githubusercontent.com/CurbShifter/BurstDNS/master/BurstDNS-logo.png" alt="" 
-  height="50%" width="50%"> 
+  <img src="signumdns-logo.png" alt="" 
+  height="80%" width="80%"> 
  
     <p>Select a node and enter the alias.</p>
     <hr>
 
 	<label for="node"><b>Node</b></label>	
 	<select name="wallet" id="wallet">
-		<option value="https://signawallet.notallmine.net/">signawallet.notallmine.net</option>		
-		<option value="https://wallet1.burst-team.us:2083/">burst-team.us</option>
+		<option value="https://europe.signum.network/">europe.signum.network</option>		
+		<option value="https://us-central.signum.network/">us-central.signum.network</option>		
+		<option value="https://canada.signum.network/">canada.signum.network</option>
 		<option value="http://127.0.0.1:8125/">localhost</option>		
 	</select>
 
-    <label for="alias"><b>Burst Alias</b></label>
-    <input type="text" placeholder="Enter Burst Alias" name="alias" id="alias" required>
+    <label for="alias"><b>Signum Alias</b></label>
+    <input type="text" placeholder="Enter Signum Alias" name="alias" id="alias" required>
 
    <p>An alias that has a URL will open a new window.</p>
 
@@ -138,7 +140,7 @@ button:hover {
       <button type="button" onclick="OpenAliasURL()" class="signupbtn">Open</button>
     </div>
 	<p class="error_msg" id="result_output"></p>
-	<p class="copyright">© CurbShifter 2018<br>released under GNU General Public License v3.<br><a href="https://github.com/CurbShifter">https://github.com/CurbShifter</a></p>
+	<p class="copyright">Released under GNU General Public License v3.<br><a href="https://github.com/pir8radio/SignumDNS">github</a></p>
   </div>
 </form>
 <script>
