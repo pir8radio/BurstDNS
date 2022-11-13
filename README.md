@@ -1,14 +1,11 @@
-# BurstDNS
+# Signum DNS
 
-Burstcoin Hackaton2019 entry
+A webpage that acts as Signum dynamic name server via CORS enabled or local nodes. like https://europe.signum.network/
 
-A webpage that acts as Burstcoin dynamic name server via CORS enabled or local nodes. like https://wallet.burst-alliance.org:8125/
+![](https://raw.githubusercontent.com/Pir8Radio/SignumDNS/master/signumdns-logo.png)
 
-![](https://raw.githubusercontent.com/CurbShifter/BurstDNS/master/BurstDNS-logo.png)
-
-This webpage alias lookup became viable due to the enabled CORS on the newer nodes. (ty BRS 2.4.2 !)
-
-repo details here: https://github.com/CurbShifter/BurstDNS
+Original repo details here: https://github.com/CurbShifter/BurstDNS
+Updated repo details here: https://github.com/Pir8Radio/SignumDNS
 
 Example links
 
@@ -25,8 +22,6 @@ To create your own link, buy an alias. And choose the URI option and enter your 
 ![](https://raw.githubusercontent.com/CurbShifter/BurstDNS/master/alias-instructions.png)
 
 Anyone may copy the index.html file and use it on your own domain to allow links like `http://ashorturl.com?testing123`
-
-Author CurbShifter
 
 License GPLv3
 
